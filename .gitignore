@@ -1,5 +1,5 @@
 # Poetry files
-/poetry.lock
+#/poetry.lock
 /venv/
 .pypoetry/
 
