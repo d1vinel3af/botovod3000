@@ -1,0 +1,101 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/27.0.9 Chrome/134.0.6998.205 Electron/35.4.0 Safari/537.36" version="27.0.9">
+  <diagram name="Страница — 1" id="Gvz4mA6Zvy9ebU7bsDeG">
+    <mxGraphModel dx="28520" dy="18007" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="0dvHxAWnQiP8pcB0wGmu-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0dvHxAWnQiP8pcB0wGmu-1" target="0dvHxAWnQiP8pcB0wGmu-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0dvHxAWnQiP8pcB0wGmu-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0dvHxAWnQiP8pcB0wGmu-1" target="0dvHxAWnQiP8pcB0wGmu-27">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="540" y="500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0dvHxAWnQiP8pcB0wGmu-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0dvHxAWnQiP8pcB0wGmu-1" target="0dvHxAWnQiP8pcB0wGmu-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0dvHxAWnQiP8pcB0wGmu-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0dvHxAWnQiP8pcB0wGmu-1" target="0dvHxAWnQiP8pcB0wGmu-33">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="540" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0dvHxAWnQiP8pcB0wGmu-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0dvHxAWnQiP8pcB0wGmu-1" target="0dvHxAWnQiP8pcB0wGmu-32">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="540" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0dvHxAWnQiP8pcB0wGmu-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0dvHxAWnQiP8pcB0wGmu-1" target="0dvHxAWnQiP8pcB0wGmu-59">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="540" y="500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0dvHxAWnQiP8pcB0wGmu-1" value="панель управления ботовода" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="320" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0dvHxAWnQiP8pcB0wGmu-26" value="Вход в кабинет" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="320" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0dvHxAWnQiP8pcB0wGmu-27" value="Регистрация" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="480" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0dvHxAWnQiP8pcB0wGmu-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0dvHxAWnQiP8pcB0wGmu-32" target="0dvHxAWnQiP8pcB0wGmu-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0dvHxAWnQiP8pcB0wGmu-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0dvHxAWnQiP8pcB0wGmu-32" target="0dvHxAWnQiP8pcB0wGmu-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0dvHxAWnQiP8pcB0wGmu-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0dvHxAWnQiP8pcB0wGmu-32" target="0dvHxAWnQiP8pcB0wGmu-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0dvHxAWnQiP8pcB0wGmu-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0dvHxAWnQiP8pcB0wGmu-32" target="0dvHxAWnQiP8pcB0wGmu-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0dvHxAWnQiP8pcB0wGmu-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0dvHxAWnQiP8pcB0wGmu-32" target="0dvHxAWnQiP8pcB0wGmu-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0dvHxAWnQiP8pcB0wGmu-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0dvHxAWnQiP8pcB0wGmu-32" target="0dvHxAWnQiP8pcB0wGmu-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0dvHxAWnQiP8pcB0wGmu-32" value="Профиль" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="160" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0dvHxAWnQiP8pcB0wGmu-33" value="Страница статистики прибыли" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="155" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0dvHxAWnQiP8pcB0wGmu-36" value="Исторические данные" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="320" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0dvHxAWnQiP8pcB0wGmu-46" value="Имя инвестора" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="80" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0dvHxAWnQiP8pcB0wGmu-47" value="Почта инвестора" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="20" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0dvHxAWnQiP8pcB0wGmu-48" value="UUID инвестора" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="-40" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0dvHxAWnQiP8pcB0wGmu-49" value="Баланс ByBIT" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="-100" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0dvHxAWnQiP8pcB0wGmu-50" value="Сколько заработал" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="-160" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0dvHxAWnQiP8pcB0wGmu-51" value="История транзакций" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="-220" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0dvHxAWnQiP8pcB0wGmu-59" value="Боты" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="480" width="100" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
