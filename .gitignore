@@ -52,8 +52,9 @@ venv.bak/
 *.sublime-project
 
 # Database migrations (раскомментируйте если не хотите коммитить миграции)
-# */migrations/*.py
-# !*/migrations/__init__.py
+*/migrations/*.py
+*/*/migrations/
+!*/migrations/__init__.py
 
 # Testing
 .coverage
