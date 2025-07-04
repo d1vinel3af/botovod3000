@@ -1,0 +1,38 @@
+.block-navbar {
+    height: 8vh;
+    border: 2px solid red;
+}
+.navbar {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+
+.navbar-brand {
+    font-size: 1.5em;
+    color: red;
+}
+
+.btn-exit-navbar {
+    font-size: 1.5em;
+}
+
+.sidebar {
+    border: 2px solid red;
+    height: 92vh;
+    margin: 0;
+}
+
+.content {
+    border: 2px solid red;
+}
+
+.sidebar-nav-link-block {
+    margin-top: 2rem;
+}
+
+.sidebar-nav-link {
+    font-size: 1.5em;
+}
