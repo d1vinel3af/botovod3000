@@ -19,7 +19,7 @@ body {
 
 .block-navbar {
     height: 8vh;
-    border: 2px solid red;
+    
     padding: 0;
     margin: 0%;
 }
@@ -28,7 +28,7 @@ body {
 /* навбар - логотип */
 
 .navbar-block-brand {
-    border: 2px solid green;
+    
     text-align: center;
 }
 
@@ -47,13 +47,41 @@ body {
 /* навбар - бегущая строка */
 
 .navbar-block-running-line {
-    border: 2px solid green;
-    
-}
+      overflow: hidden;
+      white-space: nowrap;
+      position: relative;
+      height: 2rem;
+      color: #000000;
+      display: flex;
+      align-items: center;
+    }
+
+    .navbar-block-running-line h2 {
+      position: absolute;
+      display: inline-block;
+      white-space: nowrap;
+      animation: scroll-left 15s linear infinite;
+      font-size: 24px;
+      padding-left: 100%;
+    }
+
+    @keyframes scroll-left {
+      0% {
+        transform: translateX(0%);
+      }
+      100% {
+        transform: translateX(-100%);
+      }
+    }
+
+    /* остановка анимации при наведении */
+    .navbar-block-running-line:hover h2 {
+      animation-play-state: paused;
+    }
 
 /* навбар - кнопки профиля и выхода */
 .navbar-btn-exit {
-    border: 2px solid green;
+    
     font-size: 1.5em;
 }
 
@@ -63,7 +91,7 @@ body {
 /* сайдбар */
 
 .sidebar {
-    border: 2px solid red;
+    
     height: 92vh;
     margin: 0;
 }
@@ -79,9 +107,22 @@ body {
 .sidebar-nav-link:hover {
     font-size: 1.7em;    
 }
+
+@media (max-width: 991.98px) {
+    .sidebar {
+      display: none !important;
+    }
+  }
+
+
+
+
+
 /* колнтент блок */
 
 .content {
-    border: 2px solid red;
+    
+    height: 92vh;
+    scrollbar-width: none;
 }
 

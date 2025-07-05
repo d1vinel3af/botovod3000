@@ -11,36 +11,115 @@
                 <h2>...</h2>
             </div>
         </div>
-        <div class="row block-content-card-bots">
-            
-                
-                <div class="card col-lg-3">
-                    <div class="card-body">
-                        This is some text within a card body.
-                        This is some text within a card body.
-                        This is some text within a card body.
+        <div class="row block-content-card-bots" style="overflow-x: auto; white-space: nowrap; flex-wrap: nowrap;">
+            <div class="card col-lg-3 card-bot d-inline-block" style="min-width: 300px; margin-right: 16px;">
+                <div class="card-body">
+                    <h2>БОТ-1</h2>
+                    <p>Пара: TRX/USDT</p>
+                    <p>Действие: продаёт</p>
+                    <p>Прибыль: 20$</p>
+                    <div class="row">
+                        <div class="col-6">
+                            <a href="#" class="link-card-stop-bots">остановить</a>
+                        </div>
+                        <div class="col-6">
+                            <a href="#" class="link-card-delete-bots">удалить</a>
+                        </div>
                     </div>
                 </div>
-                <div class="card col-lg-3">
-                    <div class="card-body">
-                        This is some text within a card body.
-                        This is some text within a card body.
-                        This is some text within a card body.
+            </div>
+            <div class="card col-lg-3 card-bot d-inline-block" style="min-width: 300px; margin-right: 16px;">
+                <div class="card-body">
+                    <h2>БОТ-1</h2>
+                    <p>Пара: TRX/USDT</p>
+                    <p>Действие: продаёт</p>
+                    <p>Прибыль: 20$</p>
+                    <div class="row">
+                        <div class="col-6">
+                            <a href="#" class="link-card-stop-bots">оставновить</a>
+                        </div>
+                        <div class="col-6">
+                            <a href="#" class="link-card-delete-bots">удалить</a>
+                        </div>
                     </div>
                 </div>
-                <div class="card col-lg-3">
-                    <div class="card-body">
-                        This is some text within a card body.
-                        This is some text within a card body.
-                        This is some text within a card body.
+            </div>
+            <div class="card col-lg-3 card-bot d-inline-block" style="min-width: 300px; margin-right: 16px;">
+                <div class="card-body">
+                    <h2>БОТ-1</h2>
+                    <p>Пара: TRX/USDT</p>
+                    <p>Действие: продаёт</p>
+                    <p>Прибыль: 20$</p>
+                    <div class="row">
+                        <div class="col-6">
+                            <a href="#" class="link-card-stop-bots">оставновить</a>
+                        </div>
+                        <div class="col-6">
+                            <a href="#" class="link-card-delete-bots">удалить</a>
+                        </div>
                     </div>
                 </div>
-                <div class="card col-lg-3">
-                    <div class="card-body">
-                        This is some text within a card body.
-                        This is some text within a card body.
-                        This is some text within a card body.
+            </div>
+            <div class="card col-lg-3 card-bot d-inline-block" style="min-width: 300px; margin-right: 16px;">
+                <div class="card-body">
+                    <h2>БОТ-1</h2>
+                    <p>Пара: TRX/USDT</p>
+                    <p>Действие: продаёт</p>
+                    <p>Прибыль: 20$</p>
+                    <div class="row">
+                        <div class="col-6">
+                            <a href="#" class="link-card-stop-bots">оставновить</a>
+                        </div>
+                        <div class="col-6">
+                            <a href="#" class="link-card-delete-bots">удалить</a>
+                        </div>
                     </div>
                 </div>
+            </div>
+            <div class="card col-lg-3 card-bot d-inline-block" style="min-width: 300px; margin-right: 16px;">
+                <div class="card-body">
+                    <h2>БОТ-1</h2>
+                    <p>Пара: TRX/USDT</p>
+                    <p>Действие: продаёт</p>
+                    <p>Прибыль: 20$</p>
+                    <div class="row">
+                        <div class="col-6">
+                            <a href="#" class="link-card-stop-bots">оставновить</a>
+                        </div>
+                        <div class="col-6">
+                            <a href="#" class="link-card-delete-bots">удалить</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Добавляйте новые карточки по аналогии, они будут в одной строке с прокруткой -->
         </div>
     </div>
+    <script>
+        // Горизонтальный скролл колесиком мыши
+        document.querySelectorAll('.block-content-card-bots').forEach(function(el) {
+            el.addEventListener('wheel', function(e) {
+                if (e.deltaY !== 0) {
+                    e.preventDefault();
+                    el.scrollLeft += e.deltaY;
+                }
+            }, { passive: false });
+
+            // Горизонтальный скролл свайпом на мобильных устройствах
+            let startX = 0;
+            let scrollLeft = 0;
+            el.addEventListener('touchstart', function(e) {
+                if (e.touches.length === 1) {
+                    startX = e.touches[0].pageX;
+                    scrollLeft = el.scrollLeft;
+                }
+            });
+            el.addEventListener('touchmove', function(e) {
+                if (e.touches.length === 1) {
+                    const x = e.touches[0].pageX;
+                    const walk = startX - x;
+                    el.scrollLeft = scrollLeft + walk;
+                }
+            });
+        });
+    </script>

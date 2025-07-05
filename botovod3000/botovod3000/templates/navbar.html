@@ -1,13 +1,14 @@
+
 <div class="row block-navbar">
     <nav class="navbar">
         <div class="navbar-block-brand col-lg-2">
             <a class="navbar-brand mx-auto" href="#">Botovod3000</a>
         </div>
         <div class="navbar-block-running-line col-lg-8">
-            <h2 class="mx-auto justify-content-center">
-                бегущая строка бегущая строка бегущая строка бегущая строка
-            </h2>
-        </div>
+    <h2 class="mx-auto justify-content-center">
+      бегущая строка бегущая строка бегущая строка бегущая строка
+    </h2>
+  </div>
         <div class="d-flex col-lg-1">
             <a href="#" class="btn navbar-btn-exit w-100">Профиль</a>
         </div>
@@ -15,4 +16,21 @@
             <a href="#" class="btn navbar-btn-exit w-100">Выйти</a>
         </div>
     </nav>
+
+
+    <script>
+        // JavaScript для динамического дублирования содержимого (чтобы не было пустого пространства)
+        document.addEventListener('DOMContentLoaded', function() {
+            const runningLineContent = document.querySelector('.running-line-content');
+            const content = runningLineContent.innerHTML;
+            
+            // Дублируем содержимое 3 раза для плавного перехода
+            runningLineContent.innerHTML = content + content + content;
+            
+            // Опционально: можно рассчитать время анимации based on text length
+            // const textLength = runningLineContent.textContent.length;
+            // const duration = Math.max(10, textLength / 5);
+            // runningLineContent.style.animationDuration = duration + 's';
+        });
+    </script>
 </div>

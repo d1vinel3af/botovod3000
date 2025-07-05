@@ -1,0 +1,55 @@
+<!-- Подключение Chart.js CDN -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<div class="container py-0">
+    <div class="card shadow">
+        <div class="card-body">
+            <div style="width:100%;">
+                <canvas id="balanceChart" style="width:100% !important; height:80px;"></canvas>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    // Моковые данные для 100 записей
+    const labels = Array.from({length: 100}, (_, i) => `Точка ${i + 1}`);
+    const data = {
+        labels: labels,
+        datasets: [{
+            label: 'Баланс, ₽',
+            data: Array.from({length: 100}, () => Math.floor(Math.random() * 20000) + 5000),
+            fill: false,
+            borderColor: '#0d6efd',
+            backgroundColor: '#0d6efd',
+            tension: 0.3
+        }]
+    };
+
+    const config = {
+        type: 'line',
+        data: data,
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+                legend: {
+                    display: true,
+                    position: 'top'
+                }
+            },
+            scales: {
+                y: {
+                    beginAtZero: false
+                }
+            }
+        }
+    };
+
+    // Устанавливаем высоту контейнера для canvas
+    document.getElementById('balanceChart').parentElement.style.height = '400px';
+
+    new Chart(
+        document.getElementById('balanceChart'),
+        config
+    );
+</script>
