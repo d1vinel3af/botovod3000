@@ -120,7 +120,8 @@ USE_TZ = True
 STATIC_URL = 'static/'
 STATIC_ROOT = "static/"
 STATICFILES_DIRS = [
-    BASE_DIR / "botovod3000/static"
+    BASE_DIR / "botovod3000/static",
+    BASE_DIR / "control_panel/static"
 ]
 
 

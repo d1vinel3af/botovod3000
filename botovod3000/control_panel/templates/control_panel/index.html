@@ -1,5 +1,14 @@
 {% extends 'base.html' %}
+{% load static %}
+
+{% block style %}
+<link rel="stylesheet" href="{% static 'control_panel/css/style_control_panel.css' %}">
+
+{% endblock %}
 
 {% block content %}
-<h1>TEST</h1>
+<!-- блок с карточками ботов -->
+<div class="row">
+    {% include 'control_panel/container_cards_block.html' %}
+</div>
 {% endblock %}
