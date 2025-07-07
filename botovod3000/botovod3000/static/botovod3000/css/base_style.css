@@ -15,11 +15,11 @@ body {
     width: 100%;
     height: 100%;
     background-color: rgb(245, 245, 245);
+
 }
 
 .block-navbar {
     height: 8vh;
-    
     padding: 0;
     margin: 0%;
 }

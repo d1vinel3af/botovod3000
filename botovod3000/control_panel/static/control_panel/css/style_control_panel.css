@@ -1,6 +1,11 @@
 .container-card-bots {
-    padding: 2rem 1rem 1rem 1rem;
-    
+    padding-top: 3rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+    border-radius: 2rem;
+    background: #d785f2;
+    background: linear-gradient(124deg,rgba(215, 133, 242, 1) 0%, rgba(199, 226, 255, 1) 0%, rgba(255, 196, 251, 1) 100%);
 }
 
 
@@ -8,4 +13,37 @@
 .block-content-card-bots {
     margin-top: 1rem;
     scrollbar-width: none;
+}
+
+.card-bot {
+    border-radius: 2rem;
+    margin-right: 1rem;
+    padding: 0;
+    
+}
+
+.block-content-card-link-bots {
+    text-align: center;
+}
+
+.card-body p {
+    line-height: 0.5;
+}
+
+.link-card-stop-bots {
+    color: rgb(141, 108, 1);
+}
+
+.link-card-delete-bots {
+    color: rgb(122, 0, 0);
+}
+
+.link-card-start-bots {
+    color: rgb(0, 122, 6);
+}
+
+.buttons-dropdowns-bots-menu:hover{
+    color: black;
+    scale: 1.3;
+    background-color: #9e00d300;
 }
