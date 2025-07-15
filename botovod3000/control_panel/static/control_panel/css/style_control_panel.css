@@ -1,3 +1,11 @@
+.row-container-card-block {
+    border: 2px solid red;
+    padding-left: 2rem;
+    padding-right: 2rem;
+
+}
+
+
 .container-card-bots {
     padding-top: 3rem;
     padding-left: 2rem;
