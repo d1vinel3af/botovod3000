@@ -1,7 +1,7 @@
 from django.urls import path
 
-from .views import ControlPanel
+from .views import control_panel
 
 urlpatterns = [
-    path("", ControlPanel.as_view(), name='control_panel'),
+    path("", control_panel, name='control_panel'),
 ]
