@@ -4,123 +4,22 @@
                 <h2>БОТЫ</h2>
             </div>
             <div class="col-sm-1 title-card-bots">
-                <a class="btn btn-outline-secondary buttons-dropdowns-bots-menu">...</a>
+                <a class="btn btn-outline-secondary buttons-dropdowns-bots-menu">+</a>
             </div>
         </div>
         <div class="row block-content-card-bots" style="overflow-x: auto; white-space: nowrap; flex-wrap: nowrap;">
-            <div class="card col-sm-2 d-inline-block card-bot" >
-                <div class="card-body">
-                    <h2>БОТ-1</h2>
-                    <p>TRX/USDT</p>
-                    <p>продаёт</p>
-                    <p>20$</p>
-                    <div class="row block-content-card-link-bots">
-                        <div class="col-xxl-6 ">
-                            <a href="#" class="link-card-stop-bots ">остановить</a>
-                        </div>
-                        <div class="col-xxl-6">
-                            <a href="#" class="link-card-delete-bots ">удалить</a>
+            {% for bot in bots %}
+                <div class="card card-bot mb-3 mx-2 d-inline-block" style="min-width: 130px; max-width: 175px; width: 100%; vertical-align: top; text-align: center;">
+                    <div class="card-body d-flex flex-column justify-content-between h-100">
+                        <div>
+                            <h2 class="card-title text-truncate" title="{{ bot.title }}">{{ bot.title }}</h5>
+                            <p class="mb-1 text-muted small" style="font-size:x-large">{{ bot.pair }}</p>
+                            <p class="mb-4 mt-4" style="font-size:x-large">{{ bot.status }}</p>
+                            <p class="mb-2 fw-bold" style="font-size:x-large">{{ bot.profit }}$</p>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="card col-sm-2 card-bot d-inline-block">
-                <div class="card-body">
-                    <h2>БОТ-1</h2>
-                    <p>TRX/USDT</p>
-                    <p>продаёт</p>
-                    <p>20$</p>
-                    <div class="row block-content-card-link-bots">
-                        <div class="col-xxl-6">
-                            <a href="#" class="link-card-stop-bots ">остановить</a>
-                        </div>
-                        <div class="col-xxl-6">
-                            <a href="#" class="link-card-delete-bots ">удалить</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="card col-sm-2 card-bot d-inline-block">
-                <div class="card-body">
-                    <h2>БОТ-1</h2>
-                    <p>TRX/USDT</p>
-                    <p>продаёт</p>
-                    <p>20$</p>
-                    <div class="row block-content-card-link-bots">
-                        <div class="col-xxl-6 ">
-                            <a href="#" class="link-card-stop-bots ">остановить</a>
-                        </div>
-                        <div class="col-xxl-6">
-                            <a href="#" class="link-card-delete-bots ">удалить</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="card col-sm-2 card-bot d-inline-block" >
-                <div class="card-body">
-                    <h2>БОТ-1</h2>
-                    <p>TRX/USDT</p>
-                    <p>продаёт</p>
-                    <p>20$</p>
-                    <div class="row block-content-card-link-bots">
-                        <div class="col-xxl-6 ">
-                            <a href="#" class="link-card-stop-bots ">остановить</a>
-                        </div>
-                        <div class="col-xxl-6">
-                            <a href="#" class="link-card-delete-bots ">удалить</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="card col-sm-2 card-bot d-inline-block" >
-                <div class="card-body">
-                    <h2>БОТ-1</h2>
-                    <p>TRX/USDT</p>
-                    <p>продаёт</p>
-                    <p>20$</p>
-                    <div class="row block-content-card-link-bots">
-                        <div class="col-xxl-6 ">
-                            <a href="#" class="link-card-stop-bots ">остановить</a>
-                        </div>
-                        <div class="col-xxl-6">
-                            <a href="#" class="link-card-delete-bots ">удалить</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="card col-sm-2 card-bot d-inline-block" >
-                <div class="card-body">
-                    <h2>БОТ-1</h2>
-                    <p>TRX/USDT</p>
-                    <p>продаёт</p>
-                    <p>20$</p>
-                    <div class="row block-content-card-link-bots">
-                        <div class="col-xxl-6 ">
-                            <a href="#" class="link-card-stop-bots ">остановить</a>
-                        </div>
-                        <div class="col-xxl-6">
-                            <a href="#" class="link-card-delete-bots ">удалить</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="card col-sm-2 card-bot d-inline-block" >
-                <div class="card-body">
-                    <h2>БОТ-1</h2>
-                    <p>TRX/USDT</p>
-                    <p>продаёт</p>
-                    <p>20$</p>
-                    <div class="row block-content-card-link-bots">
-                        <div class="col-xxl-6 ">
-                            <a href="#" class="link-card-stop-bots ">остановить</a>
-                        </div>
-                        <div class="col-xxl-6">
-                            <a href="#" class="link-card-delete-bots ">удалить</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Добавляйте новые карточки по аналогии, они будут в одной строке с прокруткой -->
+            {% endfor %}
         </div>
     </div>
     <script>
