@@ -11,11 +11,25 @@
     padding-left: 2rem;
     padding-right: 2rem;
     padding-bottom: 2rem;
-    border-radius: 2rem;
+    border-radius: 1rem;
     background: #d785f2;
     background: linear-gradient(124deg,rgba(215, 133, 242, 1) 0%, rgba(199, 226, 255, 1) 0%, rgba(255, 196, 251, 1) 100%);
 }
 
+.row-container-table-hystory-block {
+
+    padding-left: 2rem;
+    padding-right: 2rem;
+    
+}
+
+/* .row-container-table-hystory-block {
+    margin-top: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-radius: 1rem;
+    background-color: white;
+} */
 
 
 .block-content-card-bots {
